@@ -1,83 +1,140 @@
+#piano {
+
+   width: 1200px;
+
+   margin-top: 150px;
+
+     }
+	 img {
+
+  position: absolute;
+
+  margin-top: -560px;
+
+  margin-left: 10px;
+
+     }
+
 body {
+background-color: black
+  text-align: center;
 
-  margin: 0;
-
-  padding: 0;
-
-  height: 4000px;
-
-background:url('https://raw.githubusercontent.com/Mihina-Polina/Disain/refs/heads/main/fon.jpg');
 }
-#container {
-
-  position: fixed;
-
-  top: 0;
-
-  left: 0;
-
-  width: 400%;
-
-  height: 100vh;
-
-  display: flex;
-
-    }
-
-#container .section {
+ol {
 
   position: relative;
 
-  width: 100%;
+  display: inline-block;
 
-  height: 100%;
-
-  padding: 100px;
-
-  box-sizing: border-box;
-
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
+  margin-top: -250px;
 
 }
-#container .section .content {
+#leftHand {
 
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
+  margin-right: -20px;
 
 }
-#container .section .content .text {
 
-  margin-right: 50px;
 
-  max-width: 400px;
 
-  color: LightCyan;
+#rightHand {
+
+  margin-left: -20px;
 
 }
-#container .section .content .text h1{
+#audio {
+
+  z-index: -1;
+
+  background-color: transparent;
+
+}
+li {
+
+  position: relative;
+
+  background-color: #FFFFF0;
+
+  z-index: 1;
+
+  padding: 220px 30px 100px;
+
+  display: inline-block;
+
+  border: 1px solid #ccc;
+
+  font-size: 20px;
+
+  margin-right: -1px;
+
+  margin-left: -2px;
+
+  border-radius: 0px 0px 7px 7px;
+
+  color: transparent;
+
+  box-shadow: -3px 7px 4px #2a2a2a;
+
+}
+
+
+
+li:active {
+
+  box-shadow: -1px 2px 3px #2a2a2a;
+
+}
+.black-key {
+
+  position: absolute;
+
+  z-index: 2;
+
+  background-color:#1d1d1d;
+
+  padding: 230px 12px 12px;
+
+  top: 0px;
+
+  margin-left: -31px;
+
+  box-shadow: none;
+
+  border-width: 0px 6px 12px;
+
+  border-color: #000;
+
+  border-bottom-color: #2a2a2a;
+
+}
+.black-key:hover {
+
+    color: FFF000;
+
+}
+
+.black-key:active {
+
+  border-bottom-width: 8px;
+
+  box-shadow: none;
+
+}
+.white-key {
 
   margin: 0;
 
-  padding: 0;
-
-  font-size: 3em;
-
 }
-#container .section .content .text p{
+#C {
 
-  font-size: 1em;
+  border-top-left-radius: 7px;
 
 }
 
-#container .section .content img {
 
-  min-width: 400px;
+
+#B1 {
+
+  border-top-right-radius: 7px;
 
 }
